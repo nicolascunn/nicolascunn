@@ -1,6 +1,8 @@
 <template>
   <div class="case">
-    <div class="case-img" :style="'background-image:url('+ img +')'"></div>
+    <div class="case-img">
+      <img :src="img" alt="" />
+    </div>
     <div class="case-text">
       <h5 v-if="name">{{ name }}</h5>
       <h3>{{ title }}</h3>
@@ -32,9 +34,7 @@ export default {
 }
 .case-img {
   float:left;
-  width:56%; height:340px;
-  background-size:cover;
-  background-position: center center;
+  width:56%;
   background-color: #1E2936;
   overflow: hidden;
   border:4px solid #1E2936;
@@ -44,8 +44,8 @@ export default {
   width:40%;
 }
 .case-img IMG {
-  width:auto;
-  height:340px;
+  width:100%;
+  vertical-align: top;
 }
 .case-text H5 {
   margin:0;
@@ -68,7 +68,7 @@ export default {
 @media only screen and (max-width: 900px) {
   .case-img {
     float:none;
-    width:auto; height:280px;
+    width:auto; height:auto;
     margin:0 auto;
   }
   .case-text {
