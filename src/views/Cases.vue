@@ -246,10 +246,10 @@ export default {
 }
 @media only screen and (max-width: 900px) {
   .cases-intro H2 {
-    font-size:30px;
+    font-size:40px;
   }
   .cases-intro H3 {
-    font-size:24px;
+    font-size:30px;
   }
 }
 </style>

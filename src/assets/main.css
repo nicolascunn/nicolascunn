@@ -147,6 +147,9 @@ H3 {
     width:90%;
     margin:1em auto;
   }
+  .menu A {
+    font-size:16px;
+  }
   .submenu A {
     line-height:2;
   }
