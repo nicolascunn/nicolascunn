@@ -1,5 +1,5 @@
 <template>
-  <div class="view-home">
+  <div class="view-case">
     <div class="main center">
 
       <div class="menu submenu breadcrumb">
@@ -49,10 +49,3 @@
 
 <script>
 </script>
-
-<style scoped>
-.case-text {
-  float:none;
-  width:auto;
-}
-</style>

@@ -139,6 +139,11 @@ H3 {
   font-weight:600;
 }
 
+.view-case .case-text {
+  margin-bottom:1em;
+  float:none;
+  width:auto;
+}
 
 @media only screen and (max-width: 900px) {
   HTML, BODY {
@@ -167,5 +172,8 @@ H3 {
   }
   .submenu A {
     line-height:2.5;
+  }
+  .view-case H2 {
+    font-size:30px;
   }
 }
