@@ -1,7 +1,7 @@
 <template>
-  <div class="view-home">
+  <div class="view view-home">
     <div class="main center">
-      <h1>👋 Hey! I’m Nico Cunningham</h1>
+      <h1>👋 Hey! I’m <em>Nico Cunningham</em></h1>
       <p>I’m a <strong>Product Manager & UX Lead</strong> with +14 years of experience in UX Research, Design and Development.</p>
       
       <p>I’m currently based in 🇦🇷 <strong>Buenos Aires, Argentina</strong></p>

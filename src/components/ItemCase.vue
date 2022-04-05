@@ -11,6 +11,7 @@
         <span class="tag" v-for="tag in tags" :key="tag"><span class="nowrap">{{ tag }}</span></span>
       </div>
       <p>{{ desc }}</p>
+      <h6 v-if="credits">Credits: {{ credits }}</h6>
       <div class="buttons">
         <router-link v-if="link && availability != 'soon'" class="btn btn-primary" :to="link">View case</router-link>
         <a v-if="linkExt" class="btn btn-secondary" :href="linkExt" target="_blank">Go to site</a>
@@ -22,7 +23,7 @@
 <script>
 export default {
 
-  props: ['img', 'name', 'title', 'tags', 'desc', 'link', 'linkExt', 'availability'],
+  props: ['img', 'name', 'title', 'tags', 'desc', 'link', 'linkExt', 'availability', 'credits'],
 
 }
 </script>
@@ -40,8 +41,6 @@ export default {
 .case-img {
   float:left;
   width:56%;
-  background-color: #1E2936;
-  border:4px solid #1E2936;
 }
 .case-text {
   float:right;
@@ -51,6 +50,8 @@ export default {
   width:100%;
   vertical-align: top;
   cursor:pointer;
+  border:2px solid #3B82F6;
+  border-radius:16px;
 }
 .case-img A {
   display:block;
@@ -59,7 +60,7 @@ export default {
 .case-text H5 {
   margin:0;
   font-size:20px;
-  color:#808080;
+  color:#68727E;
 }
 .case-text H2 {
   margin:0 0 .25em;
@@ -68,6 +69,13 @@ export default {
 .case-text H3 {
   margin:0 0 .25em;
   font-size:30px;
+}
+.case-text H6 {
+  margin:.5em 0 1em;
+  font-size:14px;
+  line-height:1.2;
+  font-weight:normal;
+  color:#68727E;
 }
 .case-text P {
   margin:.5em 0 1em;

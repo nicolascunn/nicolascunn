@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap');
 
 HTML, BODY {
-  margin:.5em 0; padding:0;
+  margin:0; padding:.5em 0 0;
   font-family: 'Nunito Sans', Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:#111827;
+  background:#161E2D;
   color: rgb(209,213,219);
   text-align:left;
   font-size:20px;
   line-height:1.5;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+BODY {
+  background-image:url('../../public/assets/bg.jpg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
 }
 
 .main, NAV.menu {
@@ -20,14 +30,22 @@ HTML, BODY {
   width:680px;
   margin:0 auto;
 }
+.main {
+  margin-bottom:4em;
+}
 
 EM {
   font-style:normal;
-  color:#F05B73; 
-  font-weight:bold;
+  font-weight:900;
+  background: linear-gradient(90deg, #3B82F6 0%, #EC4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 A {
-  color: rgb(34,211,238);
+  color: #23B0FF;
+  font-weight:bold;
   text-decoration:none;
 }
 A:hover {
@@ -52,7 +70,8 @@ LI {
   margin:.25em 0;  
 }
 H1 {
-  font-size:36px;
+  margin-top:1.5em;
+  font-size:40px;
 }
 H2 {
   font-size:28px;
@@ -61,11 +80,16 @@ H3 {
   font-size:24px;
 }
 
+.view {
+  margin:1em 0 5em;
+  overflow:hidden;
+}
+
 .image-frame {
   width:94%;
   margin:20px auto;
-  border:8px solid #1E2936;
-  border-radius:2px;
+  border:2px solid #3B82F6;
+  border-radius:16px;
 }
 
 .no-bullets {
@@ -74,22 +98,25 @@ H3 {
 }
 
 .btn, .btn:hover {
+  position:relative;
   margin:0 .25em;
   padding:.75em 0;
-  border-radius:8px;
+  border-radius:6px;
   font-size:18px;
   font-weight:600;
   text-align:center;
   text-decoration:none;
   cursor:pointer;
 }
+
+
 .btn-primary {
-  background:#FFF;
-  color:#111826;
+  background:#188AEC;
+  color:#F9FAFB;
 }
 .btn-secondary {
-  background:#1E2936;
-  color:#C4C8CE;
+  background:#040D1A;
+  color:#D1D5DB;
 }
 .tags {
   margin:.5em 0 .1em;
@@ -124,8 +151,8 @@ H3 {
   font-weight:bold;
 }
 .submenu A {
-  color:rgb(34,211,238);
-  font-weight:normal;
+  color:#23B0FF;
+  font-weight:600;
 }
 .menu.submenu {
   margin:1em 0;
@@ -135,7 +162,7 @@ H3 {
   margin:0 .25em;
 }
 .menu.submenu.breadcrumb STRONG {
-  color:#808080;
+  color:#68727E;
   font-weight:600;
 }
 

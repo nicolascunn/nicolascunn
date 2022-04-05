@@ -1,5 +1,5 @@
 <template>
-  <div class="view-portfolio">
+  <div class="view view-portfolio">
     <div class="main">
       <div class="cases">
 
@@ -27,7 +27,7 @@
           name="GetProud.io (2022)"
           img="https://mhvnobgazgjwiuroumjw.supabase.in/storage/v1/object/public/static/preview-min.png"
           title="Designing and Developing an MVP in 2 months"
-          :tags="['UX Research', 'Design', 'Development']"
+          :tags="['UX Research', 'Design', 'Development', 'Web3/Crypto']"
           desc="In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs."
           link="/cases/proud"
           linkExt="https://getproud.io"
@@ -37,8 +37,9 @@
           name="CoffeeBreakGame.com (2020-2021)"
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6caf7e104294611.5f6001390bcea.jpg"
           title="Bootstrapping a B2B SaaS to 200K users"
-          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching']"
-          desc=""
+          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching', 'Gamification']"
+          desc="Due to the COVID-19 pandemic our revenue streams with our previous startup in the travel industry went down to zero, but we quickly pivoted to building socializing games for remote teams."
+          credits="UI Design by Marite Sganga, Development by Trescientosuno.com."
           link="/cases/coffeebreakgame"
           linkExt="https://coffeebreakgame.com"
           availability="soon"
@@ -48,8 +49,9 @@
           name="TheMillionDollarGame.co (2020-2021)"
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/90459f131545483.6196cda82ab72.jpg"
           title="Managing the Design and Development teams of a real-money mobile game"
-          :tags="['UX Research', 'Wireframing', 'Development', 'Pitching', 'Sales', 'Growth', 'Email Marketing']"
-          desc=""
+          :tags="['Design & Dev Management', 'Wireframing', 'UX Research', 'Surverys', 'Analytics', 'Agile Methodologies']"
+          desc="With the experience gained building QuizViajero APP we partnered with the TheMillionDollarGame team to build a mobile game for the US with real-money prizes."
+          credits="Game Mechanics by Digilearnnials.com, UI Design by Marite Sganga, Development by Trescientosuno.com, TheAppMaster.com and Juan Cruz Romero García."
           link="/cases/themilliondollargame"
           linkExt="https://themilliondollargame.co"
           availability="soon"
@@ -59,7 +61,9 @@
           name="CryptoQuiz (2020)"
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/df24c3131547185.6196d95f66b2c.jpg"
           title="Managing the Design and Development teams of a crypto game"
-          desc=""
+          :tags="['Design & Dev Management', 'Wireframing', 'UX Research', 'Web3/Crypto', 'Agile Methodologies']"
+          desc="With the experience gained building QuizViajero APP we partnered with the IOVLabs team to build a crypto trivia game."
+          credits="Game Mechanics by Digilearnnials.com, UI Design by Marite Sganga, Development by Trescientosuno.com, TheAppMaster.com and Juan Cruz Romero García."
           link="/cases/cryptoquiz"
           availability="soon"
         ></item-case>
@@ -67,8 +71,10 @@
         <item-case
           name="QuizViajero (2017-2020)"
           img="../assets/cases-quizviajero.png"
-          title="Creating the first mobile game for travel lovers"
-          desc=""
+          title="Creating the first mobile game for travel lovers with +100K downloads"
+          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching', 'Gamification']"
+          desc="QuizViajero is a mobile game for travel lovers with +100 travel destinations of the World and real prizes and discounts for travelers."
+          credits="UI Design by Marite Sganga, Development by Trescientosuno.com and Juan Cruz Romero García."
           link="/cases/quizviajero"
           linkExt="https://quizviajero.com"
           availability="soon"

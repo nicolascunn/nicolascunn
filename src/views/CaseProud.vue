@@ -1,5 +1,5 @@
 <template>
-  <div class="view-case">
+  <div class="view view-case">
     <div class="main center">
 
       <div class="menu submenu breadcrumb">
