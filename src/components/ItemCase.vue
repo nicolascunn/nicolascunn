@@ -110,5 +110,13 @@ export default {
   .case-text P {
     font-size:18px;
   }
+  .ribbon-soon {
+    width:120px; height:101px;
+    top:-10px; left:-22px;
+  }
+  .case-text,
+  .case-img {
+    margin-bottom:1.5em;
+  }
 }
 </style>
