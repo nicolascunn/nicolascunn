@@ -12,14 +12,14 @@ HTML, BODY {
   line-height:1.5;
 }
 
-.main {
+.main, NAV.menu {
   width:80%;
-  margin:1em auto;
+  margin:0 auto;
   overflow:hidden;
 }
 .main.center {
   width:680px;
-  margin:1em auto;
+  margin:0 auto;
 }
 
 EM {
@@ -61,7 +61,7 @@ H3 {
 .image-frame {
   width:94%;
   margin:20px auto;
-  border:10px solid #FFF;
+  border:8px solid #1E2936;
   border-radius:2px;
 }
 
@@ -108,12 +108,12 @@ H3 {
 }
 
 .menu {
-  margin:1em;
+  margin:1em 0;
   text-align:center;
 }
 .menu LI {
   display: inline-block;
-  margin:0 .75em;
+  margin:0 1.5em 0 0;
 }
 .menu A {
   color:#FFF;
@@ -123,6 +123,11 @@ H3 {
   color:rgb(34,211,238);
   font-weight:normal;
 }
+.menu.submenu {
+  margin:1em 0;
+  text-align:left;
+}
+
 
 
 @media only screen and (max-width: 900px) {
@@ -139,23 +144,13 @@ H3 {
   H3 {
     font-size:20px;
   }
-  .main {
+  .main, NAV.menu {
     width:90%;
-    margin:1em auto;
+    margin:0 auto;
   }
   .main.center {
     width:90%;
-    margin:1em auto;
-  }
-  .menu {
-    text-align:left;
-  }
-  .menu.submenu {
-    margin:1em 0;
-  }
-  .menu.submenu LI {
-    margin-left:0;
-    margin-right:1.5em;
+    margin:0 auto;
   }
   .menu A {
     font-size:16px;

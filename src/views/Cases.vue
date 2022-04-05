@@ -226,7 +226,7 @@ export default {
 <style scoped>
 .cases-intro {
   margin-top:3em;
-  text-align:center;    
+  text-align:left;    
 }
 .cases-intro.first {
   margin-top:0em;
