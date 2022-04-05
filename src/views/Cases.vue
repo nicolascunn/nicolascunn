@@ -245,6 +245,9 @@ export default {
   margin:.5em 0;
 }
 @media only screen and (max-width: 900px) {
+  .cases-intro {
+    text-align:left;    
+  }
   .cases-intro H2 {
     font-size:40px;
   }

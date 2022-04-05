@@ -147,10 +147,20 @@ H3 {
     width:90%;
     margin:1em auto;
   }
+  .menu {
+    text-align:left;
+  }
+  .menu.submenu {
+    margin:1em 0;
+  }
+  .menu.submenu LI {
+    margin-left:0;
+    margin-right:1.5em;
+  }
   .menu A {
     font-size:16px;
   }
   .submenu A {
-    line-height:2;
+    line-height:2.5;
   }
 }

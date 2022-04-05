@@ -75,8 +75,8 @@ export default {
     margin-top:.5em;
     float:none;
     width:auto;
-    text-align:center;
-  }  
+    text-align:left;
+  }
   .case-text H5 {
     font-size:18px;
   }
