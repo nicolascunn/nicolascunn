@@ -15,7 +15,6 @@ HTML, BODY {
 .main, NAV.menu {
   width:80%;
   margin:0 auto;
-  overflow:hidden;
 }
 .main.center {
   width:680px;
@@ -37,13 +36,17 @@ A:hover {
 H1, H2, H3, H4, STRONG {
   font-weight: 900;
 }
-H1, H2, H3, STRONG {
+H1, H2, H3, H4, STRONG {
   margin:1em 0;
   line-height:1.2;
   color:#FFF;
 }
 H4, P, UL, OL {
-  margin:1em 0;
+  margin:0 0 1em;
+}
+H4 {
+  margin:1.5em 0 .25em;
+  font-size:22px;
 }
 LI {
   margin:.25em 0;  
@@ -78,6 +81,7 @@ H3 {
   font-weight:600;
   text-align:center;
   text-decoration:none;
+  cursor:pointer;
 }
 .btn-primary {
   background:#FFF;
@@ -127,7 +131,13 @@ H3 {
   margin:1em 0;
   text-align:left;
 }
-
+.menu.submenu.breadcrumb LI {
+  margin:0 .25em;
+}
+.menu.submenu.breadcrumb STRONG {
+  color:#808080;
+  font-weight:600;
+}
 
 
 @media only screen and (max-width: 900px) {

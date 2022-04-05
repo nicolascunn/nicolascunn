@@ -1,7 +1,8 @@
 <template>
   <div class="case">
     <div class="case-img">
-      <img :src="img" alt="" />
+      <router-link :to="link"><img :src="img" alt="" /></router-link>
+      <div v-if="availability == 'soon'" class="ribbon-soon"></div>
     </div>
     <div class="case-text">
       <h5 v-if="name">{{ name }}</h5>
@@ -11,7 +12,7 @@
       </div>
       <p>{{ desc }}</p>
       <div class="buttons">
-        <router-link v-if="link" class="btn btn-primary" :to="link">View case</router-link>
+        <router-link v-if="link && availability != 'soon'" class="btn btn-primary" :to="link">View case</router-link>
         <a v-if="linkExt" class="btn btn-secondary" :href="linkExt" target="_blank">Go to site</a>
       </div>
     </div><!--/case-text-->
@@ -21,22 +22,25 @@
 <script>
 export default {
 
-  props: ['img', 'name', 'title', 'tags', 'desc', 'link', 'linkExt'],
+  props: ['img', 'name', 'title', 'tags', 'desc', 'link', 'linkExt', 'availability'],
 
 }
 </script>
 
-<style scoped>
+<style>
 .case {
   margin:1em 0;
   padding:2em 0;
-  overflow: hidden;
+  clear:both;
+}
+.case-text,
+.case-img {
+  margin-bottom:3em;
 }
 .case-img {
   float:left;
   width:56%;
   background-color: #1E2936;
-  overflow: hidden;
   border:4px solid #1E2936;
 }
 .case-text {
@@ -46,11 +50,20 @@ export default {
 .case-img IMG {
   width:100%;
   vertical-align: top;
+  cursor:pointer;
+}
+.case-img A {
+  display:block;
+  cursor:pointer;
 }
 .case-text H5 {
   margin:0;
   font-size:20px;
   color:#808080;
+}
+.case-text H2 {
+  margin:0 0 .25em;
+  font-size:40px;  
 }
 .case-text H3 {
   margin:0 0 .25em;
@@ -64,6 +77,17 @@ export default {
   display:inline-block;
   width:48%;
   margin:0 2% 0 0;
+}
+.case-img {
+  position:relative;
+}
+.ribbon-soon {
+  position:absolute;
+  width:200px; height:170px;
+  top:-30px; left:-38px;
+  z-index:1;
+  background:url('/assets/ribbon-comingsoon-study.png') no-repeat top left;
+  background-size:contain;
 }
 @media only screen and (max-width: 900px) {
   .case-img {

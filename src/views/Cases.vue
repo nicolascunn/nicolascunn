@@ -29,23 +29,30 @@
           title="Designing and Developing an MVP in 2 months"
           :tags="['UX Research', 'Design', 'Development']"
           desc="In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs."
+          link="/cases/proud"
           linkExt="https://getproud.io"
         ></item-case>
 
         <item-case
           name="CoffeeBreakGame.com (2020-2021)"
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6caf7e104294611.5f6001390bcea.jpg"
-          title="Bootstrapping a B2B SaaS to break-even"
+          title="Bootstrapping a B2B SaaS to 200K users"
+          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching']"
           desc=""
+          link="/cases/coffeebreakgame"
           linkExt="https://coffeebreakgame.com"
+          availability="soon"
         ></item-case>
 
         <item-case
           name="TheMillionDollarGame.co (2020-2021)"
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/90459f131545483.6196cda82ab72.jpg"
           title="Managing the Design and Development teams of a real-money mobile game"
+          :tags="['UX Research', 'Wireframing', 'Development', 'Pitching', 'Sales', 'Growth', 'Email Marketing']"
           desc=""
+          link="/cases/themilliondollargame"
           linkExt="https://themilliondollargame.co"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -53,6 +60,8 @@
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/df24c3131547185.6196d95f66b2c.jpg"
           title="Managing the Design and Development teams of a crypto game"
           desc=""
+          link="/cases/cryptoquiz"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -60,7 +69,9 @@
           img="../assets/cases-quizviajero.png"
           title="Creating the first mobile game for travel lovers"
           desc=""
+          link="/cases/quizviajero"
           linkExt="https://quizviajero.com"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -68,6 +79,8 @@
           img="../assets/cases-quizviajero-aeropuertos.png"
           title="QuizViajero for Airports"
           desc="In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs."
+          link="/cases/quizviajero-airports"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -75,7 +88,9 @@
           img="https://quizviajero.com/blog/wp-content/uploads/2020/03/2-covers-768x512.jpg"
           title="Weekly printable and online travel games for families in lockdown"
           desc="When the COVID-19 pandemic started and all our revenue sources from QuizViajero went to zero, we quickly started creating printable games for families in lockdown."
+          link="/cases/quizviajero-family"
           linkExt="https://quizviajero.com/blog/quizviajero-family-juegos-de-viajes-para-grandes-y-chicos/"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -83,7 +98,9 @@
           img="../assets/cases-lineupbuilder.png"
           title="Creating a 5 Million PageViews per month webapp"
           desc="In 2011 I created a tool for sports bloggers to build beautiful football formations and share them on their sites."
+          link="/cases/lineupbuilder"
           linkExt="https://lineupbuilder.com"
+          availability="soon"
         ></item-case>
 
         <div class="cases-intro anchor" ref="product-manager">
@@ -95,7 +112,8 @@
           name="Teatrix.com (2017-2018)"
           img="../assets/cases-teatrix.jpg"
           desc=""
-          link=""
+          link="/cases/teatrix"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -103,7 +121,8 @@
           img="../assets/cases-purga2.jpg"
           title=""
           desc=""
-          link=""
+          link="/cases/purga"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -111,7 +130,8 @@
           img="../assets/cases-yasports.jpg"
           title=""
           desc=""
-          link=""
+          link="/cases/yasports"
+          availability="soon"
         ></item-case>
 
         <div class="cases-intro anchor" ref="ux-consultant">
@@ -123,21 +143,24 @@
           name="Índigo MVP (2021)"
           img="../assets/cases-indigo.jpg"
           desc=""
-          link=""
+          link="/cases/indigo"
+          availability="soon"
         ></item-case>
 
         <item-case
           name="LiteupMedia MVP (2020)"
           img="../assets/cases-liteupmedia.jpg"
           desc=""
-          link=""
+          link="/cases/liteupmedia"
+          availability="soon"
         ></item-case>
 
         <item-case
           name="Qu3Bola MVP (2020)"
           img="../assets/cases-qu3bola.jpg"
           desc=""
-          link=""
+          link="/cases/quebola"
+          availability="soon"
         ></item-case>
 
         <div class="cases-intro anchor" ref="ux-lead">
@@ -151,7 +174,9 @@
           title="Usability Testing with multiples startups"
           :tags="['UX Lead','Design Thinking','Usability Testing']"
           desc="Working in Kambrica.com I had the honor to lead a team of UX Specialists to help Telefónica and Movistar Product Managers adopting user-centered design."
-          linkExt="https://www.kambrica.com/telefonica-y-movistar/"
+          link="/cases/wayra"
+          linkExt="https://www.kambrica.com/lean-ux-ayudamos-a-35-startups-a-impulsar-su-negocio/"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -160,7 +185,9 @@
           title="Leading UX Research in multiple projects"
           :tags="['UX Lead','UX Research','Wireframing','UI Design', 'A/B Testing', 'Analytics', 'Design Thinking']"
           desc="Working in Kambrica.com I had the honor to lead a team of UX Specialists to help Telefónica and Movistar Product Managers adopting user-centered design."
+          link="/cases/telefonica-movistar"
           linkExt="https://www.kambrica.com/telefonica-y-movistar/"
+          availability="soon"
         ></item-case>
 
         <div class="cases-intro anchor" ref="designer">
@@ -174,7 +201,9 @@
           title="Front-end Development for one of the most important online Retails in Argentina."
           :tags="['Front-end', 'Cross-browser', 'Usability Testing']"
           desc="I was in charge of coding a pixel-perfect front-end implementation of the design previously validated with usability studies."
+          link="/cases/jumboacasa"
           linkExt="https://www.kambrica.com/jumbo-casa-rediseno-del-sitio-web/"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -183,7 +212,9 @@
           title="Responsive Front-end Development with accessibility standards"
           :tags="['Front-end', 'Accesibility', 'Responsive']"
           desc="I was in charge of building the front-end of a complex 5 step form for acquiring online a package of the bank."
+          link="/cases/santander"
           linkExt="https://www.kambrica.com/disenamos-un-proceso-de-adquisicion-4-veces-mas-efectivo/"
+          availability="soon"
         ></item-case>
 
         <item-case
@@ -192,7 +223,9 @@
           title="Modularized Front-end Development and Usability Testing."
           :tags="['Usability Testing', 'Paper Prototyping', 'Front-end']"
           desc="I was in charge of coding a pixel-perfect front-end implementation of the design previously validated with usability studies."
+          link="/cases/guiaoleo"
           linkExt="https://www.kambrica.com/guia-oleo/"
+          availability="soon"
         ></item-case>
 
       </div><!--/cases-->
@@ -223,10 +256,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .cases-intro {
   margin-top:3em;
   text-align:left;    
+  clear:both;
 }
 .cases-intro.first {
   margin-top:0em;
