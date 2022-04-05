@@ -124,16 +124,17 @@ H3 {
   font-weight:normal;
 }
 
+
 @media only screen and (max-width: 900px) {
   HTML, BODY {
-    font-size:16px;
+    font-size:18px;
     line-height:1.5;
   }
   H1 {
-    font-size:32px;
+    font-size:24px;
   }
   H2 {
-    font-size:22px;
+    font-size:24px;
   }
   H3 {
     font-size:20px;
@@ -145,5 +146,8 @@ H3 {
   .main.center {
     width:90%;
     margin:1em auto;
+  }
+  .submenu A {
+    line-height:2;
   }
 }

@@ -244,4 +244,12 @@ export default {
 .cases-intro P {
   margin:.5em 0;
 }
+@media only screen and (max-width: 900px) {
+  .cases-intro H2 {
+    font-size:30px;
+  }
+  .cases-intro H3 {
+    font-size:24px;
+  }
+}
 </style>

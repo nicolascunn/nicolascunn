@@ -77,5 +77,14 @@ export default {
     width:auto;
     text-align:center;
   }  
+  .case-text H5 {
+    font-size:18px;
+  }
+  .case-text H3 {
+    font-size:22px;
+  }
+  .case-text P {
+    font-size:18px;
+  }
 }
 </style>
