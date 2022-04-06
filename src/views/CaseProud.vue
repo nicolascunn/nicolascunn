@@ -17,7 +17,7 @@
           <span class="tag"><span class="nowrap">Design</span></span>
           <span class="tag"><span class="nowrap">Development</span></span>
         </div>
-        <p>Link to website: <a href="https://getproud.io" target="_blank">GetProud.io</a></p>        
+        <p>Link to website: <a href="https://getproud.io" target="_blank">GetProud.io</a> &bull; Credits: NFT designs by <a href="https://www.behance.net/maritesganga" target="_blank">Marite Sganga</a>.</p>
         <p>In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs.</p>
 
       </div>

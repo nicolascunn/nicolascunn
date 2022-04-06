@@ -3,22 +3,20 @@
     <div class="main">
       <div class="cases">
 
-        <div class="cases-intro first">
-          <h2>My Portfolio</h2>
-          <p>A journey from Front-end Developer to Startup Founder.</p>
-          <div class="menu submenu">
-            <ul class="no-bullets">
-              <li><a href="#" @click.prevent="scrollMeTo('frontend')">Front-end Dev</a></li>
-              <li><a href="#" @click.prevent="scrollMeTo('designer')">UI Designer</a></li>
-              <li><a href="#" @click.prevent="scrollMeTo('ux-lead')">UX Lead</a></li>
-              <li><a href="#" @click.prevent="scrollMeTo('ux-consultant')">UX Consultant</a></li>
-              <li><a href="#" @click.prevent="scrollMeTo('product-manager')">Product Manager</a></li>
-              <li><a href="#" @click.prevent="scrollMeTo('founder')">Startup Founder</a></li>
-            </ul>
-          </div>
+        <h2>Portfolio</h2>
+        <p>A journey from Front-end Developer in 2008 to Startup Founder.</p>
+        <div class="menu submenu">
+          <ul class="no-bullets">
+            <li><a href="#" @click.prevent="scrollMeTo('frontend')">Front-end Dev</a></li>
+            <li><a href="#" @click.prevent="scrollMeTo('designer')">UI Designer</a></li>
+            <li><a href="#" @click.prevent="scrollMeTo('ux-lead')">UX Lead</a></li>
+            <li><a href="#" @click.prevent="scrollMeTo('ux-consultant')">UX Consultant</a></li>
+            <li><a href="#" @click.prevent="scrollMeTo('product-manager')">Product Manager</a></li>
+            <li><a href="#" @click.prevent="scrollMeTo('founder')">Startup Founder</a></li>
+          </ul>
         </div>
 
-        <div class="cases-intro anchor" ref="founder">
+        <div class="cases-intro first anchor" ref="founder">
           <h3>My work as a startup founder</h3>
           <p>Between 2018 and 2022 I've been building digital products from scratch with <a href="https://www.linkedin.com/in/sergio-mandelbaum" target="_blank">Sergio Mandelbaum</a>. I managed design and development teams with super talented people such as <a href="https://www.behance.net/maritesganga" target="_blank">Marité Sganga</a> (UX/UI Designer), <a href="https://www.trescientosuno.com/" target="_blank">Gonzalo Frery</a> (Director of Trescientosuno.com), <a href="https://www.linkedin.com/in/roymagarinos/" target="_blank">Roy Magariños</a> (Director of Digilearnnials.com) amongst others. I was also involved in CEO tasks such as fundraising, pitching, and envisioning.</p>          
         </div>
@@ -29,6 +27,7 @@
           title="Designing and Developing an MVP in 2 months"
           :tags="['UX Research', 'Design', 'Development', 'Web3/Crypto']"
           desc="In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs."
+          credits="NFT Designs by Marite Sganga."
           link="/cases/proud"
           linkExt="https://getproud.io"
         ></item-case>
@@ -37,7 +36,7 @@
           name="CoffeeBreakGame.com (2020-2021)"
           img="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6caf7e104294611.5f6001390bcea.jpg"
           title="Bootstrapping a B2B SaaS to 200K users"
-          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching', 'Gamification']"
+          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'B2B', 'SaaS', 'Growth', 'Email Marketing', 'Pitching', 'Gamification']"
           desc="Due to the COVID-19 pandemic our revenue streams with our previous startup in the travel industry went down to zero, but we quickly pivoted to building socializing games for remote teams."
           credits="UI Design by Marite Sganga, Development by Trescientosuno.com."
           link="/cases/coffeebreakgame"
@@ -72,7 +71,7 @@
           name="QuizViajero (2017-2020)"
           img="../assets/cases-quizviajero.png"
           title="Creating the first mobile game for travel lovers with +100K downloads"
-          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching', 'Gamification']"
+          :tags="['UX Research', 'Wireframing', 'Development', 'Design & Dev Management', 'Sales', 'Growth', 'Email Marketing', 'Pitching', 'Gamification', 'Ads Monetization', 'Community-building']"
           desc="QuizViajero is a mobile game for travel lovers with +100 travel destinations of the World and real prizes and discounts for travelers."
           credits="UI Design by Marite Sganga, Development by Trescientosuno.com and Juan Cruz Romero García."
           link="/cases/quizviajero"
@@ -84,8 +83,10 @@
           name="QuizViajero for Airports (2019)"
           img="../assets/cases-quizviajero-aeropuertos.png"
           title="QuizViajero for Airports"
-          desc="In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs."
+          :tags="['B2B', 'Wireframing', 'Field Studies', 'Design & Dev Management', 'Gamification']"
+          desc="In December 2019 we developed an interactive game for airport boarding gates. I managed the field studies testing the prototype in the airport with 5 weekly iterations."
           link="/cases/quizviajero-airports"
+          credits="UI Design by Marite Sganga, Development by Trescientosuno.com."
           availability="soon"
         ></item-case>
 
@@ -93,8 +94,10 @@
           name="QuizViajero Family (2020)"
           img="https://quizviajero.com/blog/wp-content/uploads/2020/03/2-covers-768x512.jpg"
           title="Weekly printable and online travel games for families in lockdown"
+          :tags="['Development', 'Gamification']"
           desc="When the COVID-19 pandemic started and all our revenue sources from QuizViajero went to zero, we quickly started creating printable games for families in lockdown."
           link="/cases/quizviajero-family"
+          credits="Design by Marite Sganga."
           linkExt="https://quizviajero.com/blog/quizviajero-family-juegos-de-viajes-para-grandes-y-chicos/"
           availability="soon"
         ></item-case>
@@ -103,11 +106,14 @@
           name="LineupBuilder.com (2011)"
           img="../assets/cases-lineupbuilder.png"
           title="Creating a 5 Million PageViews per month webapp"
+          :tags="['Side-hustle', 'Design', 'Development', 'Analytics', 'Growth Hacking', 'Virality', 'Ads Monetization']"
           desc="In 2011 I created a tool for sports bloggers to build beautiful football formations and share them on their sites."
           link="/cases/lineupbuilder"
           linkExt="https://lineupbuilder.com"
           availability="soon"
         ></item-case>
+
+        <div class="separator"></div>
 
         <div class="cases-intro anchor" ref="product-manager">
           <h3>My work as a Product Manager</h3>
@@ -140,6 +146,8 @@
           availability="soon"
         ></item-case>
 
+        <div class="separator"></div>
+
         <div class="cases-intro anchor" ref="ux-consultant">
           <h3>My work as a UX Consultant</h3>
           <p>I also love to help other early stage startups build their MVPs with a tight budget but a huge ambition in terms of product quality. Working alone or involving other designers such as <a href="https://www.behance.net/maritesganga" target="_blank">Marité Sganga</a> and <a href="https://www.behance.net/nicolaspenco" target="_blank">Nicolás Penco</a>, we achieved great results in all these projects.</p>
@@ -169,6 +177,8 @@
           availability="soon"
         ></item-case>
 
+        <div class="separator"></div>
+
         <div class="cases-intro anchor" ref="ux-lead">
           <h3>My work as a UX Lead</h3>
           <p>Between 2012 and 2015 I became a Senior UX Researcher and led UX Teams in <a href="https://kambrica.com" target="_blank">Kambrica</a> and Keikendo with some of the most influential professionals in the UX Industry in Argentina (<a href="https://www.linkedin.com/in/santiagobustelo" target="_blank">Santiago Bustelo</a>, <a href="https://www.linkedin.com/in/smfqv" target="_blank">Sebastián Fernandez Quezada</a> and <a href="https://www.linkedin.com/in/juanmanuelcarraro" target="_blank">Juan Manuel Carraro</a>).</p>
@@ -195,6 +205,8 @@
           linkExt="https://www.kambrica.com/telefonica-y-movistar/"
           availability="soon"
         ></item-case>
+
+        <div class="separator"></div>
 
         <div class="cases-intro anchor" ref="designer">
           <h3 class="anchor" ref="frontend">My work as a Front-end Dev/UI Designer</h3>
@@ -264,14 +276,14 @@ export default {
 
 <style>
 .cases-intro {
-  margin-top:3em;
   text-align:left;    
   clear:both;
+  overflow:hidden;
 }
 .cases-intro.first {
   margin-top:0em;
 }
-.cases-intro H2 {
+.view-portfolio H2 {
   margin:.5em 0 0;
   font-size:60px;
   line-height:1.2;
@@ -283,6 +295,10 @@ export default {
 }
 .cases-intro P {
   margin:.5em 0;
+}
+.separator {
+  clear:both;
+  height:80px;
 }
 @media only screen and (max-width: 900px) {
   .cases-intro {

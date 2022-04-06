@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .case {
   margin:1em 0;
   padding:2em 0;
@@ -40,7 +40,7 @@ export default {
 }
 .case-img {
   float:left;
-  width:56%;
+  width:57.75%;
 }
 .case-text {
   float:right;
@@ -71,7 +71,7 @@ export default {
   font-size:30px;
 }
 .case-text H6 {
-  margin:.5em 0 1em;
+  margin:.5em 0 1.5em;
   font-size:14px;
   line-height:1.2;
   font-weight:normal;

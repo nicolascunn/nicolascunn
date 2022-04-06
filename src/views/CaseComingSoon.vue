@@ -1,7 +1,7 @@
 <template>
   <div class="view view-case">
-    <div class="main center">
 
+    <div class="main">
       <div class="menu submenu breadcrumb">
         <ul class="no-bullets">
           <li><router-link to="/cases">Portfolio</router-link></li>
@@ -9,15 +9,11 @@
           <li><strong>Coming Soon...</strong></li>
         </ul>
       </div>
-
       <div class="case-text">
         <h2>🚧 This case study is coming soon...</h2>
         <p>I'll make sure it's ready during April 2022. Thanks for your patience.</p>
       </div>
 
-
-    </div><!--/main-->
-    <div class="main">
       <h3 style="margin-bottom:-30px;">Find here all the available cases:</h3>
       <div class="cases">
         <item-case
