@@ -10,14 +10,15 @@
         </ul>
       </div>
 
-      <div class="case-text">
+      <div class="case-text case-text-full">
         <h2>Designing and Developing an MVP in 2 months</h2>
         <div class="tags">
           <span class="tag"><span class="nowrap">UX Research</span></span>
           <span class="tag"><span class="nowrap">Design</span></span>
           <span class="tag"><span class="nowrap">Development</span></span>
         </div>
-        <p>Link to website: <a href="https://getproud.io" target="_blank">GetProud.io</a> &bull; Credits: NFT designs by <a href="https://www.behance.net/maritesganga" target="_blank">Marite Sganga</a>.</p>
+        <p>Link to website: <a href="https://getproud.io" target="_blank">GetProud.io</a></p>
+        <p>Credits: Marketing led by <a href="https://www.linkedin.com/in/sergio-mandelbaum" target="_blank">Sergio Mandelbaum</a>, NFT Designs by <a href="https://www.behance.net/maritesganga" target="_blank">Marite Sganga</a>.</p>
         <p>In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs.</p>
 
       </div>
@@ -42,6 +43,18 @@
 
       <h4>Week 4: UI Design</h4>
       <p>Usually a decent nice design is enough for a prototype, but in this case the value proposition </p>
+
+      <h4>Week 5-10: Development</h4>
+      <p></p>
+
+      <h4>Soft-launch</h4>
+      <p></p>
+
+      <h4>Continuous iterations</h4>
+      <p></p>
+
+      <h4>Bonus: Daily and Weekly updates on Slack</h4>
+      <p>To keep the team synched and being productive while collaborating asynchronously we implemented the Daily and Weekly updates on Slack that Chris Dossman teach to us.</p>
 
     </div><!--/main-->
   </div><!--/view-home-->

@@ -11,15 +11,15 @@ const routes = [
   { path:'/cases/proud', component: PageCaseProud },
   { path:'/cases/coffeebreakgame', component: PageCaseComingSoon },
   { path:'/cases/themilliondollargame', component: PageCaseComingSoon },
+  { path:'/cases/:catchAll(.*)', component: PageCaseComingSoon },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
-})
-
-router.beforeEach(() => {
-  window.scrollTo(0, 0)
+  scrollBehavior() {
+    return { top: 0 }
+  },
 })
 
 export default router

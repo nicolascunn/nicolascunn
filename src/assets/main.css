@@ -10,16 +10,18 @@ HTML, BODY {
   text-align:left;
   font-size:20px;
   line-height:1.5;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
+  overscroll-behavior-y: none;
 }
 
 BODY {
   background-image:url('../../public/assets/bghd.png');
-  background-repeat:no-repeat;
-  background-position:center center;
-  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#app {
+  overflow:hidden;
 }
 
 .main, NAV.menu {
@@ -184,11 +186,16 @@ H3 {
   font-weight:600;
 }
 
-.view-case .case-text {
+.view-case .case-text-full {
   margin-bottom:1em;
   float:none;
   width:auto;
 }
+.view-case H2 {
+  margin:0 0 0.5em;
+  font-size:40px;
+}
+
 
 @media only screen and (max-width: 900px) {
   HTML, BODY {

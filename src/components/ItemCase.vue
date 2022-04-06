@@ -14,7 +14,7 @@
       <h6 v-if="credits">Credits: {{ credits }}</h6>
       <div class="buttons">
         <router-link v-if="link && availability != 'soon'" class="btn btn-primary" :to="link">View case</router-link>
-        <a v-if="linkExt" class="btn btn-secondary" :href="linkExt" target="_blank">Go to site</a>
+        <a v-if="linkExt" class="btn btn-secondary" :href="linkExt" target="_blank">{{ linkExtLabel ?? 'Go to site' }}</a>
       </div>
     </div><!--/case-text-->
   </div><!--/case-->
@@ -23,7 +23,7 @@
 <script>
 export default {
 
-  props: ['img', 'name', 'title', 'tags', 'desc', 'link', 'linkExt', 'availability', 'credits'],
+  props: ['img', 'name', 'title', 'tags', 'desc', 'link', 'linkExt', 'linkExtLabel', 'availability', 'credits'],
 
 }
 </script>
