@@ -24,7 +24,7 @@
         <item-case
           name="GetProud.io (2022)"
           img="https://mhvnobgazgjwiuroumjw.supabase.in/storage/v1/object/public/static/preview-min.png"
-          title="Designing and Developing an MVP in 2 months"
+          title="Designing and Developing an MVP in 2 months including UX Research"
           :tags="['UX Research', 'Design', 'Development', 'Web3/Crypto']"
           desc="In January 2022 I started building the MVP for Proud a team recognition software platform that allows teams to reward their colleagues with NFTs."
           credits="Marketing led by Sergio Mandelbaum, NFT Designs by Marite Sganga."

@@ -14,6 +14,7 @@
       <h6 v-if="credits">Credits: {{ credits }}</h6>
       <div class="buttons">
         <router-link v-if="link && availability != 'soon'" class="btn btn-primary" :to="link">View case</router-link>
+        <router-link v-else class="btn btn-primary btn-disabled" :to="link">Case coming soon</router-link>
         <a v-if="linkExt" class="btn btn-secondary" :href="linkExt" target="_blank">{{ linkExtLabel ?? 'Go to site' }}</a>
       </div>
     </div><!--/case-text-->
@@ -47,7 +48,8 @@ export default {
   width:40%;
 }
 .case-img IMG {
-  width:100%;
+  width:100%; min-height:200px;
+  background-color:#040D1A;
   vertical-align: top;
   cursor:pointer;
   border:2px solid #3B82F6;
@@ -89,6 +91,7 @@ export default {
 .case-img {
   position:relative;
 }
+/*
 .ribbon-soon {
   position:absolute;
   width:200px; height:170px;
@@ -97,6 +100,7 @@ export default {
   background:url('/assets/ribbon-comingsoon-study.png') no-repeat top left;
   background-size:contain;
 }
+*/
 @media only screen and (max-width: 900px) {
   .case-img {
     float:none;

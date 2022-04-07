@@ -139,6 +139,10 @@ H3 {
   background:#040D1A;
   color:#D1D5DB;
 }
+.btn-disabled {
+  background:rgba(115,122,133,0.5);
+  color:rgba(175,178,184,0.6);
+}
 .tags {
   margin:.5em 0 .1em;
 }
@@ -196,6 +200,20 @@ H3 {
   margin:0 0 0.5em;
   font-size:40px;
 }
+.view-case H3 {
+  font-size:32px;
+}
+.view-case H4 {
+  font-size:26px;
+}
+
+.credits {
+  margin:.5em 0 1.5em;
+  font-size:16px;
+  line-height:1.2;
+  font-weight:normal;
+  color:#68727E;  
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -237,5 +255,11 @@ H3 {
   }
   .view-case H2 {
     font-size:30px;
+  }
+  .view-case H3 {
+    font-size:25px;
+  }
+  .view-case H4 {
+    font-size:20px;
   }
 }
