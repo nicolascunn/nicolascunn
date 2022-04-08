@@ -91,8 +91,8 @@ export default {
 .case-img {
   position:relative;
 }
-/*
 .ribbon-soon {
+  display:none;
   position:absolute;
   width:200px; height:170px;
   top:-30px; left:-38px;
@@ -100,7 +100,6 @@ export default {
   background:url('/assets/ribbon-comingsoon-study.png') no-repeat top left;
   background-size:contain;
 }
-*/
 @media only screen and (max-width: 900px) {
   .case-img {
     float:none;
