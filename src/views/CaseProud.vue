@@ -26,16 +26,30 @@
 
       <img class="image-frame" src="https://mhvnobgazgjwiuroumjw.supabase.in/storage/v1/object/public/static/preview-min.png" alt="" />
 
+      <h3>OVERVIEW</h3>
 
-      <h4>A 3-person team</h4>
-      <p>I was not alone. Sergio, my partner in QuizViajero, CoffeeBreak and other ventures, was in charge of the Marketing stuff: defining the value proposition, content for the landing page, and acquiring leads. Santiago, expert in Blockchain was in charge of providing the web3 API for minting the NFTs.</p>
+      <h4>The Problem</h4>
+      <p>During my many years leading people and projects, I consistently found a common pattern: people doing extraordinary things on what seemed the periphery.</p>
+      <p>Customer Success or Support professionals dealing with difficult situations day in and out. Saving critical customers, bringing what seemed lost accounts back to life or dealing with difficult people.</p>
+      <p>They are often put in a situation where heroic efforts are needed, but the company spotlight is rarely on them, we value more what is to come and we take for granted what we do have.</p>
+      <p>These heroic efforts are recognized often by peers or their direct reports who do not have enough resources to materialize that extra effort in monetary rewards. We get used to money pretty quickly anyway.</p>
+      <p>What we do carry often with us is the healthy pride that is created by recognition via public kind words, especially when the person giving you praise is someone that you look up to, even better if you are not the only one.</p>
+  
+      <h4>The Goal</h4>
+      <p>We believed that in a couple of months we could build a useful platform that will allow team leaders in software companies to make their team feel recognized for going the extra-mile by giving them NFTs.</p>
 
-      <h4>My job</h4>
+      <h4>The Team</h4>
+      <p>• Sergio, my partner in QuizViajero, CoffeeBreak and other ventures, was in charge of the Marketing stuff: defining the value proposition, content for the landing page, and acquiring leads.</p> 
+      <p>• Santiago, expert in Blockchain was in charge of providing the web3 API for minting the NFTs.</p>
+
+      <h4>My Job</h4>
       <p>As the Product co-founder I was in charge of doing the whole work of a Product squad (Design, Full-stack Development, UX Research, Testing, etc) with no budget for involving other people. Here is how I managed to build an MVP in just 10 weeks.</p>
 
+      <h3>THE PROCESS</h3>
       <h4>Week 1: Collecting potential users</h4>
       <p>Before starting to Design I created a form using Airtable to collect potential users willing to collaborate with a 30 minute call to better understand how they solve the problem nowadays. We distributed the form using Twitter, Linkedin and Mailchimp and collected info from +200 team leaders willing to collaborate during the whole process and scheduled +20 calls to better understand the problem.</p>
 
+      <img class="image-frame" src="../../public/assets/case-proud-linkedin.png" alt="" />
       <img class="image-frame" src="../../public/assets/case-proud-airtable.png" alt="" />
 
       <h4>Week 2: UX Research - Understanding the problem</h4>
@@ -77,7 +91,15 @@
           <source src="../../public/assets/case-proud-send.mp4" type="video/mp4">
       </video>
 
-      <h4>Bonus: Daily and Weekly updates on Slack</h4>
+      <h3>RESULTS</h3>
+      <p>By making the users part of this design and development process we maximized the chances of building something useful for them. However, we still have a lot of work to do to make this product successful. The platform prooved to be useful as we are having our first users that use it on a regular basis and are their teams love using it.</p>
+
+      <h4>Next steps</h4>
+      <p>Our next step is to continue improving the product and acquiring new early adopters until more users become active and start sending this NFT rewards on a regular basis.</p>
+      <p>We will start testing the business model and pricing plans with the users that are already adopting it.</p>
+
+      <h3>BONUS</h3>
+      <h4>Daily and Weekly updates on Slack</h4>
       <p>A great suggestion from <a href="https://www.linkedin.com/in/christopherdossman" target="_blank">Chris Dossman</a>, a very important advisor in the past year for us, was adopting the habit to post daily updates on Slack at the end of the day.</p>
 
       <p>This small but very powerful team habit helped us keep tuned and collaborative while maximizing our focus in being productive with our tasks. Furthermore, after launch I started posting weekly updates with key metrics, achievements and milestones in the #general channel.</p> 

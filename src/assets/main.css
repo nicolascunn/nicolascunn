@@ -201,10 +201,16 @@ H3 {
   font-size:40px;
 }
 .view-case H3 {
+  margin:1.5em 0 .5em;
   font-size:32px;
+  font-weight:lighter;
 }
 .view-case H4 {
+  margin:1em 0 .5em;
   font-size:26px;
+}
+.view-case .image-frame {
+  margin:.5em 0;
 }
 
 .credits {
