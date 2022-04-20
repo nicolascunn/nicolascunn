@@ -31,12 +31,10 @@
       <h4>The Problem</h4>
       <p>During my many years leading people and projects, I consistently found a common pattern: people doing extraordinary things on what seemed the periphery.</p>
       <p>Customer Success or Support professionals dealing with difficult situations day in and out. Saving critical customers, bringing what seemed lost accounts back to life or dealing with difficult people.</p>
-      <p>They are often put in a situation where heroic efforts are needed, but the company spotlight is rarely on them, we value more what is to come and we take for granted what we do have.</p>
-      <p>These heroic efforts are recognized often by peers or their direct reports who do not have enough resources to materialize that extra effort in monetary rewards. We get used to money pretty quickly anyway.</p>
-      <p>What we do carry often with us is the healthy pride that is created by recognition via public kind words, especially when the person giving you praise is someone that you look up to, even better if you are not the only one.</p>
+      <p>Team leaders don't have the budget or tools to reward and recognize their team on a regular basis with something they really value.</p>
   
       <h4>The Goal</h4>
-      <p>We believed that in a couple of months we could build a useful platform that will allow team leaders in software companies to make their team feel recognized for going the extra-mile by giving them NFTs.</p>
+      <p>We believed that in a couple of months we could <strong>build a useful platform</strong> that will allow team leaders in software companies to easily send NFTs to their team members to make them feel recognized for going the extra-mile.</p>
 
       <h4>The Team</h4>
       <p>• Sergio, my partner in QuizViajero, CoffeeBreak and other ventures, was in charge of the Marketing stuff: defining the value proposition, content for the landing page, and acquiring leads.</p> 

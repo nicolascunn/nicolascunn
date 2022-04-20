@@ -25,6 +25,8 @@
 
       <p>If you want to learn more about my work, check the <router-link to="/cases">Portfolio section</router-link>.</p>
 
+      <p>If you want to participate in paid user research studies that I do to help website and app owners design more friendly and intuitive products, <a href="https://www.getrevue.co/profile/nicocunn" target="_blank">subscibe to my newsletter</a>.</p>
+
       <p><strong>I'm always available for new challenges.</strong></p>
       
       <p>Contact me through <a href="https://www.linkedin.com/in/nicolascunn/" target="_blank">LinkedIn</a> or <a href="https://twitter.com/NicoCunn" target="_blank">Twitter</a>.</p>
