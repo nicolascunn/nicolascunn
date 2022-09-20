@@ -11,7 +11,7 @@
       </div>
       <div class="case-text">
         <h2>🚧 This case study is coming soon...</h2>
-        <p>I'll make sure it's ready during April 2022. Thanks for your patience.</p>
+        <p>Thanks for your patience.</p>
       </div>
 
       <h3 style="margin-bottom:-30px;">Find here all the available cases:</h3>

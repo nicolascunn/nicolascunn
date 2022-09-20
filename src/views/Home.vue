@@ -2,12 +2,15 @@
   <div class="view view-home">
     <div class="main center">
       <h1>👋 Hey! I’m <em>Nico Cunningham</em></h1>
-      <p>I’m a <strong>Product Manager & UX Lead</strong> with +14 years of experience in UX Research, Design and Development.</p>
-      
-      <p>I’m currently based in 🇦🇷 <strong>Buenos Aires, Argentina</strong></p>
-  
+
+
+      <p>I’m a Senior UX Lead & Product Designer with +14 years of end-to-end experience in UX Research, Design, Development and Product Management.</p>
+
+      <p>I’m currently based in 🇪🇸 <strong>Madrid, Spain</strong></p>
+
       <p>Since 2015 I’ve been managing cross-functional teams to build products people love such as:</p>
       <ul class="no-bullets">
+        <li>💧 <a href="https://waterplan.com" target="_blank">Waterplan.com</a> (Product Designer)</li>
         <li>💎 <a href="https://getproud.io" target="_blank">GetProud.io</a> (CEO & Co-founder)</li>
         <li>☕ <a href="https://coffeebreakgame.com" target="_blank">CoffeeBreakGame.com</a> (CEO & Co-founder)</li>
         <li>💰 <a href="https://themilliondollargame.co" target="_blank">TheMillionDollarGame.co</a> (CTO)</li>
@@ -28,7 +31,7 @@
       <p>If you want to participate in paid user research studies that I do to help website and app owners design more friendly and intuitive products, <a href="https://www.getrevue.co/profile/nicocunn" target="_blank">subscibe to my newsletter</a>.</p>
 
       <p><strong>I'm always available for new challenges.</strong></p>
-      
+
       <p>Contact me through <a href="https://www.linkedin.com/in/nicolascunn/" target="_blank">LinkedIn</a> or <a href="https://twitter.com/NicoCunn" target="_blank">Twitter</a>.</p>
 
       <img class="image-frame" src="/assets/profile.jpg" />
