@@ -4,7 +4,7 @@
       <h1>👋 Hey! I’m <em>Nico Cunningham</em></h1>
 
 
-      <p>I’m a Senior UX Lead & Product Designer with +14 years of end-to-end experience in UX Research, Design, Development and Product Management.</p>
+      <p>I’m a Senior UX Lead & Product Designer with +15 years of end-to-end experience in UX Research, Design, Development and Product Management.</p>
 
       <p>I’m currently based in 🇪🇸 <strong>Madrid, Spain</strong></p>
 
