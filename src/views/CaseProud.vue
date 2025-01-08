@@ -24,7 +24,7 @@
 
       </div>
 
-      <img class="image-frame" src="https://mhvnobgazgjwiuroumjw.supabase.in/storage/v1/object/public/static/preview-min.png" alt="" />
+      <img class="image-frame" src="../assets/cases-proud.png" alt="" />
 
       <h3>OVERVIEW</h3>
 
